@@ -13,8 +13,8 @@
 
     <div ng-controller="ListController">
       <div class="wrapper">
-        <div class="item" ng-repeat="(key, value) in words">
-          {{key}}: {{value}}
+        <div class="item" ng-repeat="word in words">
+          {{word.word}}: {{word.definition}}
         </div>
       </div>
     </div>
